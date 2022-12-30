@@ -9,7 +9,6 @@ import { useRouter } from 'next/router';
 import Empty from 'src/components/empty';
 import { DisplayHTMLContent } from 'src/components/html-content';
 import NextLink from 'next/link';
-import ResourceConfig from 'configs/resource-sources.json';
 
 interface Main {
   sourceData: Metadata;
@@ -55,6 +54,7 @@ const Main: React.FC<Main> = ({ sourceData }) => {
     },
     { refetchOnWindowFocus: false },
   );
+
   if (error) {
     return (
       <Error

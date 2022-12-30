@@ -32,15 +32,16 @@ export const fetchSources = async ({
   }
 
   try {
-    const url = `https://api.github.com/repos/NIAID-Data-Ecosystem/nde-crawlers/commits`;
+    const response = await axios.get('/api/gh', {
+      params: {
+        url: '/repos/{owner}/{repo}/commits?path={path}',
+        owner: 'NIAID-Data-Ecosystem',
+        repo: 'nde-crawlers',
+        path: 'biothings-hub/files/nde-hub/hub/dataload/sources/immport/uploader.py',
+      },
+    });
 
-    const data = await axios
-      .get(`${url}?path=${sourcePath}`, {
-        validateStatus: function (status) {
-          return status < 500 && status !== 403;
-        },
-      })
-      .then(res => res.data);
+    const { data } = response.data;
 
     const dates: string[] = [];
     data.forEach((jsonObj: { commit: { author: { date: string } } }) => {
