@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "yarn run schema-definitions && next build",
+    "build": "yarn run schema-definitions && next build && next export",
     "build:staging": "env-cmd -f .env.staging yarn build",
     "start": "next start",
     "lint": "next lint",

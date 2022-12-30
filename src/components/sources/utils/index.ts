@@ -32,7 +32,7 @@ export const fetchSources = async ({
   }
 
   try {
-    const response = await axios.get('/api/gh', {
+    const response = await axios.get(`${process.env.BASE_URL}/api/gh`, {
       params: {
         url: '/repos/{owner}/{repo}/commits?path={path}',
         owner: 'NIAID-Data-Ecosystem',
