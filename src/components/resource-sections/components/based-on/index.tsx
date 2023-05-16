@@ -10,7 +10,7 @@ import {
   Text,
   TextProps,
   UnorderedList,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { FormattedResource } from 'src/utils/api/types';
 import LoadingSpinner from 'src/components/loading';
 import NextLink from 'next/link';

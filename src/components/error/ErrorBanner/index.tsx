@@ -9,7 +9,7 @@ import {
   ListItem,
   Text,
   UnorderedList,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import {
   FaExclamationCircle,
   FaInfoCircle,

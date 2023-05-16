@@ -8,7 +8,7 @@ import {
   SkeletonText,
   Tag,
   Text,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { FormattedResource } from 'src/utils/api/types';
 import NextLink from 'next/link';
 import { getTypeColor } from '../type-banner';

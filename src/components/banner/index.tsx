@@ -1,4 +1,4 @@
-import { Flex, Icon } from 'nde-design-system';
+import { Flex, Icon } from '@candicecz/test-design-system';
 import React from 'react';
 import {
   FaCheck,

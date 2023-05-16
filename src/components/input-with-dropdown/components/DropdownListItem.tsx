@@ -1,5 +1,9 @@
 import React, { useMemo } from 'react';
-import { Heading, ListItem as NDEListItem, Text } from 'nde-design-system';
+import {
+  Heading,
+  ListItem as NDEListItem,
+  Text,
+} from '@candicecz/test-design-system';
 import { FormattedResource } from 'src/utils/api/types';
 import { ListItemProps as ChakraListItemProps } from '@chakra-ui/react';
 import { useDropdownContext } from '..';

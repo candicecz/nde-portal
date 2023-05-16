@@ -15,7 +15,7 @@ import {
   useDisclosure,
   useBreakpointValue,
   Icon,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { FaFilter } from 'react-icons/fa';
 import { FiltersConfigProps, SelectedFilterType } from '../types';
 import { NAV_HEIGHT } from 'src/pages/_document';

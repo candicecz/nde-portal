@@ -17,7 +17,7 @@ import {
   VisuallyHidden,
   BoxProps,
   Tooltip,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import {
   FaArrowAltCircleRight,
   FaChevronRight,

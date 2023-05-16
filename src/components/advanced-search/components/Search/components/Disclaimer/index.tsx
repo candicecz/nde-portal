@@ -1,5 +1,11 @@
 import { MetadataIcon } from 'src/components/icon';
-import { Box, Button, Flex, SlideFade, Text } from 'nde-design-system';
+import {
+  Box,
+  Button,
+  Flex,
+  SlideFade,
+  Text,
+} from '@candicecz/test-design-system';
 import { useAdvancedSearchContext } from '../AdvancedSearchFormContext';
 import { useLocalStorage } from 'usehooks-ts';
 

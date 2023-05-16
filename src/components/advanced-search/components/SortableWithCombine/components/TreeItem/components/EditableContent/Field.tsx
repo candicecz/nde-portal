@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Box } from 'nde-design-system';
+import { Box } from '@candicecz/test-design-system';
 import MetadataFieldsConfig from 'configs/resource-fields.json';
 import {
   FieldSelect,

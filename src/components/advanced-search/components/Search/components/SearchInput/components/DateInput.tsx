@@ -1,4 +1,4 @@
-import { Box, Flex, Input, Text } from 'nde-design-system';
+import { Box, Flex, Input, Text } from '@candicecz/test-design-system';
 import { getDateQuerystring } from '../helpers';
 import { AdvancedSearchInputProps } from '../types';
 

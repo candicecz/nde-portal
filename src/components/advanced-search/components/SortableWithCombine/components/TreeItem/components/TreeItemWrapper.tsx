@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Box, BoxProps } from 'nde-design-system';
+import { Box, BoxProps } from '@candicecz/test-design-system';
 import { TreeItemComponentProps } from '..';
 import { getItemStyles } from './styles';
 

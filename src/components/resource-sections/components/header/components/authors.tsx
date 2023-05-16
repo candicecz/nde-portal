@@ -15,7 +15,7 @@ import {
   Image,
   Tooltip,
   HStack,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { Link as ChakraLink } from '@chakra-ui/react';
 import { FormattedResource } from 'src/utils/api/types';
 import { formatAuthorsList2String } from 'src/utils/helpers';

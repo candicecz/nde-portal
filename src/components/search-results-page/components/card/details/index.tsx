@@ -14,7 +14,7 @@ import {
   UnorderedList,
   SimpleGrid,
   Box,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { FaMinus, FaPlus } from 'react-icons/fa';
 import { FormattedResource } from 'src/utils/api/types';
 import { formatLicense } from 'src/utils/helpers';

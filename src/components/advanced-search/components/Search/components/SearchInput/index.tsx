@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Flex } from 'nde-design-system';
+import { Flex } from '@candicecz/test-design-system';
 import { useAdvancedSearchContext } from '../AdvancedSearchFormContext';
 import {
   DateInputGroup,

@@ -9,7 +9,7 @@ import {
   Skeleton,
   Text,
   UnorderedList,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { FormattedResource } from 'src/utils/api/types';
 import { getRepositoryImage } from 'src/utils/helpers';
 import { ExternalSourceButton } from 'src/components/external-buttons/index.';

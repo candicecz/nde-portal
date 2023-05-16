@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconButton, IconButtonProps } from 'nde-design-system';
+import { IconButton, IconButtonProps } from '@candicecz/test-design-system';
 import { UniqueIdentifier } from '@dnd-kit/core';
 
 interface ActionProps extends Omit<IconButtonProps, 'id'> {

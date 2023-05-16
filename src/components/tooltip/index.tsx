@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Tooltip as ChakraTooltip,
   TooltipProps as ChakraTooltipProps,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 
 interface TooltipProps extends ChakraTooltipProps {}
 

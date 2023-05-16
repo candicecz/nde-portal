@@ -1,5 +1,9 @@
 import React from 'react';
-import { Icon, IconButton, IconButtonProps } from 'nde-design-system';
+import {
+  Icon,
+  IconButton,
+  IconButtonProps,
+} from '@candicecz/test-design-system';
 import { IoClose } from 'react-icons/io5';
 import { UniqueIdentifier } from '@dnd-kit/core';
 

@@ -1,4 +1,4 @@
-import { Box, BoxProps } from 'nde-design-system';
+import { Box, BoxProps } from '@candicecz/test-design-system';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import remarkGfm from 'remark-gfm';

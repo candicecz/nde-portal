@@ -14,7 +14,7 @@ import {
   useTableSort,
   TableSortToggle,
   TablePagination,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { FormatLinkCell } from './helpers';
 import Tooltip from 'src/components/tooltip';
 

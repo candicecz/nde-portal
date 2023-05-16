@@ -8,7 +8,7 @@ import {
   Image,
   LinkProps,
   Stack,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { ImageProps } from '@chakra-ui/image';
 import { assetPrefix } from 'next.config';
 import { FaArrowRight } from 'react-icons/fa';

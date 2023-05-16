@@ -1,4 +1,4 @@
-import { Select } from 'nde-design-system';
+import { Select } from '@candicecz/test-design-system';
 import { useCallback, useEffect, useState } from 'react';
 import { useAdvancedSearchContext } from 'src/components/advanced-search/components/Search';
 import { SearchTypesConfigProps } from 'src/components/advanced-search/components/Search/search-types-config';

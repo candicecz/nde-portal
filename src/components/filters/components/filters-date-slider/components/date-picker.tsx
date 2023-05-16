@@ -1,5 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { Box, ButtonProps, Button, Flex, Input, Text } from 'nde-design-system';
+import {
+  Box,
+  ButtonProps,
+  Button,
+  Flex,
+  Input,
+  Text,
+} from '@candicecz/test-design-system';
 import { useDateRangeContext } from '../hooks/useDateRangeContext';
 import { formatISOString } from 'src/utils/api/helpers';
 

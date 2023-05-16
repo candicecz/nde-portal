@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Heading, ListItem, Text } from 'nde-design-system';
+import { Box, Heading, ListItem, Text } from '@candicecz/test-design-system';
 import { formatDate } from 'src/utils/api/helpers';
 import { SourceResponse } from 'src/pages/sources';
 

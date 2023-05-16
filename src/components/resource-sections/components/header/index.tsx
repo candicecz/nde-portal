@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Heading, Skeleton } from 'nde-design-system';
+import { Box, Flex, Heading, Skeleton } from '@candicecz/test-design-system';
 import { FormattedResource } from 'src/utils/api/types';
 import ResourceAuthors from './components/authors';
 import {

@@ -9,7 +9,7 @@ import {
   SearchInput,
   Skeleton,
   Text,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { DisplayHTMLContent } from 'src/components/html-content';
 import NextLink from 'next/link';
 import { SourceResponse } from 'src/pages/sources';

@@ -1,5 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Box, Card, Heading, ListItem, UnorderedList } from 'nde-design-system';
+import {
+  Box,
+  Card,
+  Heading,
+  ListItem,
+  UnorderedList,
+} from '@candicecz/test-design-system';
 import { throttle } from 'lodash';
 import { FormattedResource } from 'src/utils/api/types';
 import { NavLink } from './components/nav-link';

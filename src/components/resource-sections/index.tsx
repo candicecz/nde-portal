@@ -11,7 +11,7 @@ import {
   Tag,
   Text,
   UnorderedList,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import {
   ResourceDates,
   ResourceHeader,

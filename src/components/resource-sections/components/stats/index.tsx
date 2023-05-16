@@ -7,7 +7,7 @@ import {
   StackDivider,
   StatHelpText,
   StatNumber,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { FormattedResource } from 'src/utils/api/types';
 import { formatDOI, formatNumber } from 'src/utils/helpers';
 import StatField from '../overview/components/stat-field';

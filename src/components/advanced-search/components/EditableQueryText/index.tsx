@@ -15,7 +15,7 @@ import {
   Spinner,
   theme,
   Tooltip,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { MouseEventHandler, useEffect, useState } from 'react';
 import { FaCheck, FaRegEdit } from 'react-icons/fa';
 import { IoClose } from 'react-icons/io5';

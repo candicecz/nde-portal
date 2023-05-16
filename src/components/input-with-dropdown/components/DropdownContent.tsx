@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, BoxProps } from 'nde-design-system';
+import { Box, BoxProps } from '@candicecz/test-design-system';
 import { useDropdownContext } from '..';
 
 interface DropdownContentProps extends BoxProps {}

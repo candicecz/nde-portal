@@ -10,7 +10,7 @@ import {
   CheckboxGroup,
   Text,
   ButtonProps,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { FilterTerm } from '../types';
 import { FiltersCheckbox } from './filters-checkbox';
 import REPOS from 'configs/repositories.json';

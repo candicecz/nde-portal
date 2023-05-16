@@ -7,7 +7,7 @@ import {
   Icon,
   Text,
   useBreakpointValue,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { IconType } from 'react-icons';
 import { FaInfo } from 'react-icons/fa';
 import LoadingSpinner from 'src/components/loading';

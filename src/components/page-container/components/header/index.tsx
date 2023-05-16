@@ -10,7 +10,7 @@ import {
   Text,
   theme,
   usePrefersReducedMotion,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { fade, StyledSection } from './styles';
 import { assetPrefix } from 'next.config';
 import { FaChevronRight } from 'react-icons/fa';

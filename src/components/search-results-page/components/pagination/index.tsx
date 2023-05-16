@@ -10,7 +10,7 @@ import {
   ScaleFade,
   Select,
   VisuallyHidden,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import {
   FaAngleRight,
   FaAngleLeft,

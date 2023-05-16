@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import { useRouter } from 'next/router';
 import { PageContainer, PageContent } from 'src/components/page-container';
-import { Box, Collapse, Flex, Heading } from 'nde-design-system';
+import { Box, Collapse, Flex, Heading } from '@candicecz/test-design-system';
 import { useHasMounted } from 'src/hooks/useHasMounted';
 import SearchResultsPage, {
   defaultQuery,

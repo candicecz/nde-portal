@@ -12,7 +12,7 @@ import {
   Link,
   ImageProps,
   Icon,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { useState } from 'react';
 import { FaChevronDown } from 'react-icons/fa';
 

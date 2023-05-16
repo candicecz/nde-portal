@@ -26,7 +26,7 @@ import {
   Text,
   useBreakpointValue,
   theme,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import {
   PageHeader,
   PageContainer,

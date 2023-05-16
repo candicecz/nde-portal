@@ -8,7 +8,7 @@ import {
   Tooltip,
   useDisclosure,
   VisuallyHidden,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import MetadataFields from 'configs/resource-fields.json';
 import { useAdvancedSearchContext } from '../AdvancedSearchFormContext';
 import Select, { components, OptionProps, ControlProps } from 'react-select';

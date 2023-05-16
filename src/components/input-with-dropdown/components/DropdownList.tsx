@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo } from 'react';
-import { UnorderedList } from 'nde-design-system';
+import { UnorderedList } from '@candicecz/test-design-system';
 import { useDropdownContext } from '..';
 import { ListProps } from '@chakra-ui/react';
 

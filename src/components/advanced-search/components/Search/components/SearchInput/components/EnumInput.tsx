@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import Select from 'react-select';
-import { Flex, theme } from 'nde-design-system';
+import { Flex, theme } from '@candicecz/test-design-system';
 import { AdvancedSearchInputProps } from '../types';
 import { customStyles } from '../../FieldSelect';
 

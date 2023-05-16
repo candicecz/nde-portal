@@ -1,5 +1,5 @@
 import React, { forwardRef, HTMLAttributes, useMemo, useState } from 'react';
-import { Box, Flex, ListItem } from 'nde-design-system';
+import { Box, Flex, ListItem } from '@candicecz/test-design-system';
 import { FlattenedItem } from '../../types';
 import { getStyles } from './styles';
 import { ListItemProps } from '@chakra-ui/react';

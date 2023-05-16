@@ -1,4 +1,9 @@
-import { Box, Heading, HeadingProps, Spinner } from 'nde-design-system';
+import {
+  Box,
+  Heading,
+  HeadingProps,
+  Spinner,
+} from '@candicecz/test-design-system';
 import React from 'react';
 import { formatNumber } from 'src/utils/helpers';
 

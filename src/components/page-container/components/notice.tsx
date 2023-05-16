@@ -1,5 +1,12 @@
 import React from 'react';
-import { Box, Button, Flex, Icon, Link, Text } from 'nde-design-system';
+import {
+  Box,
+  Button,
+  Flex,
+  Icon,
+  Link,
+  Text,
+} from '@candicecz/test-design-system';
 import { IoIosWarning } from 'react-icons/io';
 import { useLocalStorage } from 'usehooks-ts';
 

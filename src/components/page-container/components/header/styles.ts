@@ -10,7 +10,7 @@ import {
   keyframes,
   Text,
   TextProps,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import styled from '@emotion/styled';
 
 // Styles for the home page

@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import { PageContainer, PageContent } from 'src/components/page-container';
-import { Box, Heading } from 'nde-design-system';
+import { Box, Heading } from '@candicecz/test-design-system';
 import { AdvancedSearch } from 'src/components/advanced-search';
 
 const AdvancedSearchPage: NextPage = () => {

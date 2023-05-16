@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo } from 'react';
-import { Box, Flex, theme } from 'nde-design-system';
+import { Box, Flex, theme } from '@candicecz/test-design-system';
 import { Bar } from '@visx/shape';
 import { Group } from '@visx/group';
 import { FacetTerm } from 'src/utils/api/types';

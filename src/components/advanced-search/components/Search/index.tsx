@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react';
 import { uniqueId } from 'lodash';
-import { Box, Flex, ListItem, Text, UnorderedList } from 'nde-design-system';
+import {
+  Box,
+  Flex,
+  ListItem,
+  Text,
+  UnorderedList,
+} from '@candicecz/test-design-system';
 import { FormControl, FormErrorMessage } from '@chakra-ui/react';
 import { QueryStringError } from '../../utils/validation-checks';
 import { TreeItem } from '../SortableWithCombine';

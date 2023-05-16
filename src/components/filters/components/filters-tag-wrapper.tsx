@@ -12,7 +12,7 @@ import {
   Text,
   useDisclosure,
   theme,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { SelectedFilterType } from '../types';
 
 interface FilterTagsWrapperProps {

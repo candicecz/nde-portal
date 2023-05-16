@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from 'nde-design-system';
+import { Box } from '@candicecz/test-design-system';
 import {
   Modal,
   ModalBody,

@@ -16,7 +16,7 @@ import {
   Text,
   UnorderedList,
   useDisclosure,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { useRouter } from 'next/router';
 import { ModalProps } from '@chakra-ui/react';
 import { AdvancedSearchModal } from './components/Modal';

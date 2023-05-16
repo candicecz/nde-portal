@@ -1,4 +1,4 @@
-import { Flex, Heading, Spinner } from 'nde-design-system';
+import { Flex, Heading, Spinner } from '@candicecz/test-design-system';
 import { useQuery } from 'react-query';
 import { getQueryStatusError } from 'src/components/error/utils';
 import { fetchSearchResults } from 'src/utils/api';

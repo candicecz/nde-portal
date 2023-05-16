@@ -1,4 +1,4 @@
-import { ButtonProps } from 'nde-design-system';
+import { ButtonProps } from '@candicecz/test-design-system';
 import React, { useEffect, useMemo, useState } from 'react';
 import { FacetTerms, FilterTerm } from 'src/components/filters/types';
 import { addMissingYears } from '../helpers';

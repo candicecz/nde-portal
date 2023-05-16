@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, FlexProps, Heading, Icon } from 'nde-design-system';
+import { Flex, FlexProps, Heading, Icon } from '@candicecz/test-design-system';
 import Glyph from '../icon/components/glyph';
 
 interface EmptyProps extends FlexProps {

@@ -7,7 +7,7 @@ import {
   FooterItem,
   FooterProps,
   NavigationProps,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import navConfig from 'configs/nav.json';
 import footerConfig from 'configs/footer.json';
 import Head from 'next/head';

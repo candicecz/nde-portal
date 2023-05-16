@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Badge, BadgeProps, Box, Icon } from 'nde-design-system';
+import { Badge, BadgeProps, Box, Icon } from '@candicecz/test-design-system';
 import BadgesConfig from 'src/components/badge-with-tooltip/badges.json';
 import Tooltip from 'src/components/tooltip';
 import { IconType } from 'react-icons';

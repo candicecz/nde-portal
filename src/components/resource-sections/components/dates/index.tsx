@@ -1,5 +1,11 @@
 import React from 'react';
-import { Flex, FlexProps, Icon, Link, Text } from 'nde-design-system';
+import {
+  Flex,
+  FlexProps,
+  Icon,
+  Link,
+  Text,
+} from '@candicecz/test-design-system';
 import { FaRegClock } from 'react-icons/fa';
 import TypeBanner from '../type-banner';
 import { FormattedResource } from 'src/utils/api/types';

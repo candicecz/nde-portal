@@ -1,5 +1,11 @@
 import React from 'react';
-import { Box, Flex, Text, VisuallyHidden, BoxProps } from 'nde-design-system';
+import {
+  Box,
+  Flex,
+  Text,
+  VisuallyHidden,
+  BoxProps,
+} from '@candicecz/test-design-system';
 import { MetadataToolTip, MetadataIcon } from 'src/components/icon';
 import { getMetadataColor } from 'src/components/icon/helpers';
 

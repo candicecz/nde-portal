@@ -1,5 +1,10 @@
 import { ListItemProps } from '@chakra-ui/react';
-import { Heading, ListItem, Text, useDisclosure } from 'nde-design-system';
+import {
+  Heading,
+  ListItem,
+  Text,
+  useDisclosure,
+} from '@candicecz/test-design-system';
 
 interface OptionProps extends Omit<ListItemProps, 'textUnderlineOffset'> {
   name: string;

@@ -11,7 +11,7 @@ import {
   IconButtonProps,
   ListItem,
   UnorderedList,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { ListItemProps } from '@chakra-ui/react';
 import { UnionTypes } from 'src/components/advanced-search/types';
 

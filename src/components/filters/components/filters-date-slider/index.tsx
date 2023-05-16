@@ -8,7 +8,7 @@ import {
   Skeleton,
   Text,
   theme,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { useFacetsData } from '../../hooks/useFacetsData';
 import { SelectedFilterType } from '../../types';
 import { Params } from 'src/utils/api';

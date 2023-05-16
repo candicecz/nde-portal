@@ -7,7 +7,7 @@ import {
   Stack,
   StackDivider,
   Text,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { FormattedResource } from 'src/utils/api/types';
 import { Skeleton } from '@chakra-ui/skeleton';
 import { getRepositoryImage } from 'src/utils/helpers';

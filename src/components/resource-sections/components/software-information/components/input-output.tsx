@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Icon } from 'nde-design-system';
+import { Box, Flex, Icon } from '@candicecz/test-design-system';
 import { InputProperties, OutputProperties } from 'src/utils/api/types';
 import { IconType } from 'react-icons';
 import { StyledText } from '../../based-on';

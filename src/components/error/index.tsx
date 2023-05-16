@@ -1,5 +1,11 @@
 import React from 'react';
-import { Button, Flex, FlexProps, Heading, Text } from 'nde-design-system';
+import {
+  Button,
+  Flex,
+  FlexProps,
+  Heading,
+  Text,
+} from '@candicecz/test-design-system';
 import { PageContent } from 'src/components/page-container';
 
 interface Error extends FlexProps {

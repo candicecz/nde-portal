@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Script from 'next/script';
 import { QueryClient, QueryClientProvider } from 'react-query';
-import { ThemeProvider } from 'nde-design-system';
+import { ThemeProvider } from '@candicecz/test-design-system';
 import FontFace from 'src/theme/font-face';
 import * as ga from 'lib/ga';
 

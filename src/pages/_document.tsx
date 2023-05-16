@@ -7,7 +7,7 @@ import NextDocument, {
 } from 'next/document';
 import React from 'react';
 import { assetPrefix } from 'next.config';
-import { Box } from 'nde-design-system';
+import { Box } from '@candicecz/test-design-system';
 
 export const NAV_HEIGHT = { base: '105px', sm: '77px', md: '89px' };
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { IconProps as ChakraIconProps } from '@chakra-ui/icon';
-import { Flex, Icon } from 'nde-design-system';
+import { Flex, Icon } from '@candicecz/test-design-system';
 import {
   FaFlask,
   FaFingerprint,

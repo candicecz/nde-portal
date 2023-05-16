@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Flex, Icon } from 'nde-design-system';
+import { Flex, Icon } from '@candicecz/test-design-system';
 import { FaChevronDown, FaRegEdit } from 'react-icons/fa';
 import { Action, Handle, Remove } from './Actions';
 import { TreeItemComponentProps } from '..';

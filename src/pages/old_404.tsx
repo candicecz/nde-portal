@@ -1,4 +1,10 @@
-import { Button, Flex, Heading, Image, Text } from 'nde-design-system';
+import {
+  Button,
+  Flex,
+  Heading,
+  Image,
+  Text,
+} from '@candicecz/test-design-system';
 import { NextPage } from 'next';
 import React from 'react';
 import { PageContainer, PageContent } from 'src/components/page-container';

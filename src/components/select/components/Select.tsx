@@ -12,7 +12,7 @@ import {
   InputRightElement,
   useOutsideClick,
   VisuallyHidden,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { UseDisclosureProps } from '@chakra-ui/react';
 
 export const SelectIcon = ({ size, onClick, ...rest }: IconButtonProps) => {

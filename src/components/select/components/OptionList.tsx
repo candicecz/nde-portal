@@ -1,5 +1,5 @@
 import { ListProps } from '@chakra-ui/react';
-import { UnorderedList } from 'nde-design-system';
+import { UnorderedList } from '@candicecz/test-design-system';
 
 export const OptionsList: React.FC<Omit<ListProps, 'textUnderlineOffset'>> = ({
   children,

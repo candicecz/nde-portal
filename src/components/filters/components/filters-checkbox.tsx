@@ -5,7 +5,7 @@ import {
   Text,
   CheckboxProps,
   Skeleton,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { formatNumber } from 'src/utils/helpers';
 
 export interface FiltersCheckboxProps extends CheckboxProps {

@@ -1,4 +1,10 @@
-import { Box, Button, Collapse, Flex, Text } from 'nde-design-system';
+import {
+  Box,
+  Button,
+  Collapse,
+  Flex,
+  Text,
+} from '@candicecz/test-design-system';
 import { useState } from 'react';
 import {
   AdvancedSearchFormContext,

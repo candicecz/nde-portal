@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Text } from 'nde-design-system';
+import { Link, Text } from '@candicecz/test-design-system';
 
 interface NavLinkProps {
   href: string;

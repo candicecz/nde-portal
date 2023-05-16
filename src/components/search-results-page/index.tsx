@@ -17,7 +17,7 @@ import {
   Stack,
   Text,
   UnorderedList,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import {
   queryFilterObject2String,
   queryFilterString2Object,

@@ -11,7 +11,7 @@ import {
   IconButton,
   ListItem,
   Tooltip,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { useLocalStorage } from 'usehooks-ts';
 import {
   DropdownContent,

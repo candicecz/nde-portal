@@ -10,7 +10,7 @@ import {
   Text,
   UnorderedList,
   useDisclosure,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import React, { useEffect, useState } from 'react';
 import { FaDownload, FaExclamationCircle } from 'react-icons/fa';
 import { useQuery } from 'react-query';

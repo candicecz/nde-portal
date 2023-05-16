@@ -6,7 +6,7 @@ import {
   Flex,
   Heading,
   Box,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { FaMinus, FaPlus } from 'react-icons/fa';
 import { MetadataIcon, MetadataToolTip } from 'src/components/icon';
 import { getMetadataColor } from 'src/components/icon/helpers';

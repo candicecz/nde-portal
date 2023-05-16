@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Flex, Select } from 'nde-design-system';
+import { Flex, Select } from '@candicecz/test-design-system';
 import {
   NumberDecrementStepper,
   NumberIncrementStepper,

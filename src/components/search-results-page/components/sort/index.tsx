@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Select } from 'nde-design-system';
+import { Box, Flex, Select } from '@candicecz/test-design-system';
 import { SortOptionsInterface } from 'src/components/search-results-page';
 
 /*

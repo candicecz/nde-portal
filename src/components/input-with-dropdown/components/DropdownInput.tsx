@@ -10,7 +10,7 @@ import {
   InputRightElement,
   Spinner,
   VisuallyHidden,
-} from 'nde-design-system';
+} from '@candicecz/test-design-system';
 import { FaSearch } from 'react-icons/fa';
 import { useDropdownContext } from '..';
 import { ReactElement } from 'react-markdown/lib/react-markdown';

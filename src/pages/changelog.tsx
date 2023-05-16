@@ -1,4 +1,4 @@
-import { Badge, Box, Flex, Heading, Text } from 'nde-design-system';
+import { Badge, Box, Flex, Heading, Text } from '@candicecz/test-design-system';
 import type { NextPage } from 'next';
 import { PageContainer, PageContent } from 'src/components/page-container';
 import ChangelogData from '../../CHANGELOG.md';
