@@ -18,6 +18,7 @@ import { AdvancedSearchOpen } from 'src/components/advanced-search/components/bu
 import NextLink from 'next/link';
 import { useQuery } from 'react-query';
 import { fetchMetadata } from 'src/utils/api';
+import { useEffect, useState } from 'react';
 
 interface PageContainerProps extends FlexProps {
   hasNavigation?: boolean;
@@ -34,6 +35,11 @@ export const PageContainer: React.FC<PageContainerProps> = ({
   metaDescription,
   disableSearchBar,
 }) => {
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   const topNavigation = navConfig as NavigationProps['navigation'];
   const footerNavigation = footerConfig as FooterProps['navigation'];
 
@@ -73,7 +79,7 @@ export const PageContainer: React.FC<PageContainerProps> = ({
   return (
     <>
       <Head>
-        <title>NIAID Data Discovery Portal {title && ` | ${title}`}</title>
+        <title>{`NIAID Data Discovery Portal ${title && ` | ${title}`}`}</title>
         <meta
           name='description'
           content='Find and access allergic, infectious and immune-mediated disease data by searching across biomedical data repositories with the NIAID Data Discovery Portal'

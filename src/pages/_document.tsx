@@ -26,7 +26,6 @@ class Document extends NextDocument {
         // }}
       >
         <Head>
-          <style data-href='https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900'></style>
           <link rel='icon' href={`${assetPrefix || ''}/favicon.png`} />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
