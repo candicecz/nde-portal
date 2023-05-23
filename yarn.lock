@@ -303,10 +303,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@candicecz/test-design-system@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@candicecz/test-design-system/-/test-design-system-1.0.6.tgz#6dd7a35e44134f0cb2a10a15103d0236f4325899"
-  integrity sha512-N3XyEfEa44ZQMn9zr2A0OOI4MiCW5I1ak7wkeEW1FG2ZGStqr6a8jbGd85I8VbQ1xObnq21WA6dt3jIrfilAVQ==
+"@candicecz/test-design-system@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@candicecz/test-design-system/-/test-design-system-1.0.8.tgz#d177d2cf60eda742fbf848de28477b4e483d4113"
+  integrity sha512-+6cgmUrMyRJraCim3dix5SXd/X7hGV+kD25BikSZjgP5lZE7PQMr+sndFNGy0S8+dxJNgeAgFJ2lnG4S37KHPw==
   dependencies:
     "@babel/types" "^7.21.5"
     "@chakra-ui/react" "^2.6.1"
@@ -1720,10 +1720,10 @@
   dependencies:
     glob "7.1.7"
 
-"@next/mdx@^13.4.2":
-  version "13.4.2"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-13.4.2.tgz#2ec40024969feccca386e841d4ae675bfe25436b"
-  integrity sha512-AT/gxEGkKOwceFSTvoa97vAJh0KsDcw+oW1UFTW4e0zcJCmvieniJoq+JHLMzKoyfC9VjozeCR9yGAchZrli1A==
+"@next/mdx@^13.4.3":
+  version "13.4.3"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-13.4.3.tgz#e5a9bfa5756b4b9602e2cba3392712a598953b22"
+  integrity sha512-ubDW9DIoGpb9WgkVyvnnvNq2BekGnv2NZ+38SCVyijfzF/+sdAGzJ2NIobuKiMurmKMwFtZ3Hh0Y1Hj1zOddcQ==
   dependencies:
     source-map "^0.7.0"
 

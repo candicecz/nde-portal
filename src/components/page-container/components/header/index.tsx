@@ -1,19 +1,7 @@
 import React from 'react';
 import { PageContent } from 'src/components/page-container';
-import {
-  Box,
-  Flex,
-  Heading,
-  Icon,
-  LinkProps as ChakraLinkProps,
-  Text,
-  theme,
-} from '@candicecz/test-design-system';
+import { Box, Flex, Heading, Text, theme } from '@candicecz/test-design-system';
 import { StyledSection } from './styles';
-import { assetPrefix } from 'next.config';
-import { FaChevronRight } from 'react-icons/fa';
-import NextLink from 'next/link';
-import { UrlObject } from 'url';
 
 interface PageHeaderProps {
   title: string;
@@ -47,7 +35,7 @@ export const PageHeader: React.FC<PageHeaderProps> = ({
           bg ||
           `linear-gradient(180deg, ${theme.colors.primary[500]}, ${theme.colors.tertiary[700]})`
         }
-        bgImg={bgImg || `${assetPrefix || ''}/assets/home-bg.png`}
+        bgImg={bgImg || `/assets/home-bg.png`}
         backgroundSize='cover'
         flexWrap='wrap'
         minH='unset'

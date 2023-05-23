@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import type { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import Script from 'next/script';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import {
   extendTheme,
@@ -10,7 +9,6 @@ import {
   ThemeProvider,
 } from '@candicecz/test-design-system';
 import { Public_Sans } from 'next/font/google';
-import FontFace from 'src/theme/font-face';
 import * as ga from 'lib/ga';
 
 // Creates an instance of react-query for the app.
@@ -19,7 +17,6 @@ const queryClient = new QueryClient();
 // Import the weights and subsets, add any other config here as well
 const public_sans_font = Public_Sans({
   subsets: ['latin'],
-  preload: true,
   display: 'swap',
   fallback: ['arial', 'system-ui'],
 });

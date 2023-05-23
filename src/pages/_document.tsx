@@ -6,7 +6,6 @@ import NextDocument, {
   NextScript,
 } from 'next/document';
 import React from 'react';
-import { assetPrefix } from 'next.config';
 import { Box } from '@candicecz/test-design-system';
 
 export const NAV_HEIGHT = { base: '105px', sm: '77px', md: '89px' };
@@ -26,7 +25,7 @@ class Document extends NextDocument {
         // }}
       >
         <Head>
-          <link rel='icon' href={`${assetPrefix || ''}/favicon.png`} />
+          <link rel='icon' href={`./favicon.png`} />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async

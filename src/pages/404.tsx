@@ -8,7 +8,6 @@ import {
 import { NextPage } from 'next';
 import React from 'react';
 import { PageContainer, PageContent } from 'src/components/page-container';
-import { assetPrefix } from 'next.config';
 
 const NotFoundPage: NextPage = () => {
   return (
@@ -21,7 +20,7 @@ const NotFoundPage: NextPage = () => {
         <Flex flexDirection='column' alignItems='center'>
           <Image
             w='80%'
-            src={`${assetPrefix || ''}/assets/404.png`}
+            src='/assets/404.png'
             alt='404: Page Not Found'
             mb={8}
           ></Image>
