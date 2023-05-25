@@ -22,6 +22,7 @@ interface RelatedDatasetsProps {
 
 interface CardContainerProps {
   heading: string;
+  children: React.ReactNode;
 }
 
 /* Card for related datasets section */

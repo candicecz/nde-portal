@@ -24,13 +24,14 @@ import {
   ResourceLinks,
 } from 'src/components/resource-sections/components';
 import { Error, ErrorCTA } from 'src/components/error';
-import Sections, { section_metadata } from 'src/components/resource-sections';
+import Sections, { sectionMetadata } from 'src/components/resource-sections';
 import navigationData from 'configs/resource-sections.json';
 import { Route, showSection } from 'src/components/resource-sections/helpers';
 import { useLocalStorage } from 'usehooks-ts';
 import { CardContainer } from 'src/components/resource-sections/components/related-datasets';
 import ResourceStats from 'src/components/resource-sections/components/stats';
 import { getQueryStatusError } from 'src/components/error/utils';
+import ErrorPage from './404';
 
 // Displays empty message when no data exists.
 const EmptyState = () => {
@@ -38,9 +39,9 @@ const EmptyState = () => {
     <Card w='100%'>
       <Empty message='No data available.' alignSelf='center' h='50vh'>
         <Text>No information about this dataset is available.</Text>
-        <Button as={'a'} href='/' mt={4}>
-          Go to search.
-        </Button>
+        <NextLink href={{ pathname: '/search' }}>
+          <Button mt={4}>Go to search</Button>
+        </NextLink>
       </Empty>
     </Card>
   );
@@ -85,8 +86,8 @@ const ResourcePage: NextPage = props => {
     document.body.appendChild(altmetricsScript);
   }, [data]);
 
-  if (!id) {
-    return <></>;
+  if (router && router.query && !router.query.id) {
+    return <ErrorPage />;
   }
 
   const { routes } = navigationData as {
@@ -97,7 +98,7 @@ const ResourcePage: NextPage = props => {
   // Check if the metadata is available for a given section before displaying it in navbar or page.
   const sections = routes.filter(route =>
     showSection(
-      { ...route, metadataProperties: section_metadata[route.hash] },
+      { ...route, metadataProperties: sectionMetadata[route.hash] },
       data,
     ),
   );
@@ -228,7 +229,11 @@ const ResourcePage: NextPage = props => {
                               }}
                               passHref
                             >
-                              <Link wordBreak='break-word' fontSize='xs'>
+                              <Link
+                                as='span'
+                                wordBreak='break-word'
+                                fontSize='xs'
+                              >
                                 {search}
                               </Link>
                             </NextLink>

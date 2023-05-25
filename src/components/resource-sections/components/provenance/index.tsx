@@ -13,7 +13,7 @@ import { Skeleton } from '@chakra-ui/skeleton';
 import { getRepositoryImage } from 'src/utils/helpers';
 import { formatDate } from 'src/utils/api/helpers';
 import StatField from '../overview/components/stat-field';
-import { ExternalSourceButton } from 'src/components/external-buttons/index.';
+import { ExternalSourceButton } from 'src/components/external-buttons/';
 
 interface Provenance {
   isLoading: boolean;

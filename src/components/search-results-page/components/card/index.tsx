@@ -145,6 +145,7 @@ const SearchResultCard: React.FC<SearchResultCardProps> = ({
                 passHref
               >
                 <Link
+                  as='span'
                   h='100%'
                   flexWrap='nowrap'
                   display='inline-block'

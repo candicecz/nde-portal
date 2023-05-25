@@ -491,7 +491,7 @@ const Overview: React.FC<OverviewProps> = ({
 
               {/* PUBMED ID*/}
               {citation && (
-                <ListItem>
+                <>
                   {citation?.map((c, i) => {
                     if (!nctid && !doi && !c.pmid) {
                       return <ListItem key={i}>-</ListItem>;
@@ -509,7 +509,7 @@ const Overview: React.FC<OverviewProps> = ({
                       );
                     }
                   })}
-                </ListItem>
+                </>
               )}
             </UnorderedList>
           </StatField>

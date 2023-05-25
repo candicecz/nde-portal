@@ -29,7 +29,6 @@ export const ExternalSourceButton: React.FC<ExternalButtonProps> = ({
   imageProps,
   sourceHref,
   colorScheme = 'secondary',
-  ...props
 }) => {
   const SourceImage = (props: any) => (
     <Image

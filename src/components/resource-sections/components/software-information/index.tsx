@@ -61,7 +61,7 @@ const SoftwareInformation: React.FC<SoftwareInformation> = ({
     softwareVersion,
   } = props || {};
 
-  const StatText: React.FC = ({ children }) => {
+  const StatText: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
       <Text fontSize='sm' lineHeight='short'>
         {children}

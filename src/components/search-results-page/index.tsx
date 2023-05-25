@@ -353,9 +353,9 @@ const SearchResultsPage = () => {
           {!isLoading && (!data || data.results.length === 0) && (
             <Empty message='No results found.' alignSelf='center' h='50vh'>
               <Text>Search yielded no results, please try again.</Text>
-              <Button href='/' mt={4}>
-                Go to search page.
-              </Button>
+              <NextLink href={{ pathname: '/search' }}>
+                <Button mt={4}>Go to search</Button>
+              </NextLink>
             </Empty>
           )}
 
