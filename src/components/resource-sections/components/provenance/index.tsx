@@ -11,7 +11,6 @@ import {
 import { FormattedResource } from 'src/utils/api/types';
 import { Skeleton } from '@chakra-ui/skeleton';
 import { getRepositoryImage } from 'src/utils/helpers';
-import { assetPrefix } from 'next.config';
 import { formatDate } from 'src/utils/api/helpers';
 import StatField from '../overview/components/stat-field';
 import { ExternalSourceButton } from 'src/components/external-buttons/index.';
@@ -130,9 +129,7 @@ const Provenance: React.FC<Provenance> = ({
                         h='50px'
                         objectFit='contain'
                         my={[2, 4]}
-                        src={`${assetPrefix || ''}${getRepositoryImage(
-                          curatedBy.name,
-                        )}`}
+                        src={`${getRepositoryImage(curatedBy.name)}`}
                         alt='Data source logo'
                       />
                     ) : (
@@ -146,9 +143,7 @@ const Provenance: React.FC<Provenance> = ({
                         h='50px'
                         objectFit='contain'
                         my={[2, 4]}
-                        src={`${assetPrefix || ''}${getRepositoryImage(
-                          curatedBy.name,
-                        )}`}
+                        src={`${getRepositoryImage(curatedBy.name)}`}
                         alt='Data source logo'
                       />
                     ) : (

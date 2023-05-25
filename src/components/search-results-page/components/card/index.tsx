@@ -31,7 +31,6 @@ import {
   getRepositoryImage,
 } from 'src/utils/helpers';
 import { TypeBanner } from 'src/components/resource-sections/components';
-import { assetPrefix } from 'next.config';
 import NextLink from 'next/link';
 import CardDetails from './details';
 import { DisplayHTMLContent } from 'src/components/html-content';
@@ -303,7 +302,7 @@ const SearchResultCard: React.FC<SearchResultCardProps> = ({
                               maxH='40px'
                               maxW='250px'
                               mr={4}
-                              src={`${assetPrefix || ''}${imageURL}`}
+                              src={`${imageURL}`}
                               alt='Data source name'
                             ></Image>
                           </Link>
@@ -314,7 +313,7 @@ const SearchResultCard: React.FC<SearchResultCardProps> = ({
                             maxW='200px'
                             mr={4}
                             mb={[2, 2, 0]}
-                            src={`${assetPrefix || ''}${imageURL}`}
+                            src={`${imageURL}`}
                             alt='Data source name'
                           ></Image>
                         )
