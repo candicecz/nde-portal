@@ -148,11 +148,11 @@ const Sections = ({
               <Skeleton isLoaded={!isLoading}>
                 <Flex flexWrap='wrap'>
                   {data?.keywords &&
-                    data.keywords.map(keyword => {
+                    data.keywords.map((keyword, i) => {
                       return (
                         <Tag
+                          key={`${keyword}-${i}`}
                           as='a'
-                          key={keyword}
                           m={2}
                           colorScheme='primary'
                           cursor='pointer'

@@ -13,7 +13,6 @@ import {
 } from '@candicecz/test-design-system';
 import { FormattedResource } from 'src/utils/api/types';
 import LoadingSpinner from 'src/components/loading';
-import NextLink from 'next/link';
 import { IconType } from 'react-icons';
 
 interface BasedOn extends BoxProps {

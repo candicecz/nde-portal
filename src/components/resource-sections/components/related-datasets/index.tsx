@@ -87,7 +87,12 @@ const RelatedDatasets: React.FC<RelatedDatasetsProps> = ({
                           }}
                           passHref
                         >
-                          <Link isExternal wordBreak='break-word' fontSize='xs'>
+                          <Link
+                            as='span'
+                            isExternal
+                            wordBreak='break-word'
+                            fontSize='xs'
+                          >
                             {data.name || data.identifier}
                           </Link>
                         </NextLink>
@@ -99,12 +104,13 @@ const RelatedDatasets: React.FC<RelatedDatasetsProps> = ({
                               href={{
                                 pathname: '/resources/',
                                 query: {
-                                  id: `${includedInDataCatalog.name}_${data.identifier}`,
+                                  id: `${data.identifier}`,
                                 },
                               }}
                               passHref
                             >
                               <Link
+                                as='span'
                                 isExternal
                                 wordBreak='break-word'
                                 fontSize='xs'
