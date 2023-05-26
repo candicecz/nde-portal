@@ -32,6 +32,7 @@ export const SelectWrapper: React.FC<{
   isOpen?: boolean;
   onClose: (() => void) | undefined;
   renderList: () => React.ReactNode;
+  children: React.ReactNode;
 }> = ({ children, handleOnClickOutside, isOpen, onClose, renderList }) => {
   // Handles when the user clicks outside the select dropdown.
   const ref = useRef(null);

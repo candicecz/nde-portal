@@ -87,10 +87,9 @@ export const MetadataIcon = React.forwardRef<HTMLDivElement, IconProps>(
             boxSize={boxSize || 5}
             aria-labelledby={id}
             role='img'
-            title={title}
             aria-label={title}
           >
-            <Glyph id={id} glyph={glyph} stroke='currentColor' />
+            <Glyph id={id} glyph={glyph} stroke='currentColor' title={title} />
           </Icon>
         )}
       </Flex>
@@ -104,6 +103,7 @@ interface MetadataToolTipProps {
   propertyName?: string;
   recordType?: string;
   showAbstract?: boolean; // if true, show shortened definition if available.
+  children: React.ReactNode;
 }
 
 export const MetadataToolTip: React.FC<MetadataToolTipProps> = ({

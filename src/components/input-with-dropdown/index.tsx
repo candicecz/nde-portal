@@ -47,6 +47,7 @@ export const InputWithDropdown: React.FC<{
   inputValue: string;
   cursorMax: number;
   colorScheme?: string;
+  children: React.ReactNode;
 }> = ({ children, inputValue, colorScheme = 'primary', cursorMax }) => {
   const dropdownInput = useDropdownInput({
     colorScheme,

@@ -20,6 +20,7 @@ interface DropdownListItemProps
 // See example: https://codesandbox.io/s/text-highlighting-vk1hj?file=/src/App.js
 interface HighlightProps {
   tags: string[];
+  children: React.ReactNode;
 }
 export const Highlight: React.FC<HighlightProps> = ({
   children: text = '',

@@ -13,6 +13,7 @@ import { LinearGradient } from '@visx/gradient';
 interface HistogramProps {
   updatedData: FacetTerm[];
   handleClick: (args: string[]) => void;
+  children: React.ReactNode;
 }
 
 type ThemeColorsKeys = keyof typeof theme.colors;
