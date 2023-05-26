@@ -31,7 +31,6 @@ import { useLocalStorage } from 'usehooks-ts';
 import { CardContainer } from 'src/components/resource-sections/components/related-datasets';
 import ResourceStats from 'src/components/resource-sections/components/stats';
 import { getQueryStatusError } from 'src/components/error/utils';
-import ErrorPage from './404';
 
 // Displays empty message when no data exists.
 const EmptyState = () => {
@@ -52,12 +51,20 @@ const ResourcePage: NextPage = props => {
   const { id } = router.query;
   const [searchHistory] = useLocalStorage<string[]>('basic-searches', []);
   // Access query client
-  const { isLoading, error, data } = useQuery<
-    FormattedResource | undefined,
-    Error
-  >(['search-result', { id }], () => getResourceById(id), {
-    refetchOnWindowFocus: false,
-  });
+
+  const {
+    isLoading: loadingData,
+    error,
+    data,
+  } = useQuery<FormattedResource | undefined, Error>(
+    ['search-result', { id }],
+    () => getResourceById(id),
+    {
+      refetchOnWindowFocus: false,
+    },
+  );
+
+  const isLoading = loadingData || !router.isReady;
 
   // embed metadata
   useEffect(() => {
@@ -86,10 +93,6 @@ const ResourcePage: NextPage = props => {
     document.body.appendChild(altmetricsScript);
   }, [data]);
 
-  if (router && router.query && !router.query.id) {
-    return <ErrorPage />;
-  }
-
   const { routes } = navigationData as {
     title: string;
     routes: Route[];
@@ -105,6 +108,17 @@ const ResourcePage: NextPage = props => {
 
   const errorResponse =
     error && getQueryStatusError(error as unknown as { status: string });
+
+  const [isMounted, setIsMounted] = React.useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isLoading && !id) {
+    router.push('/404');
+    return <></>;
+  }
 
   return (
     <>
@@ -217,31 +231,33 @@ const ResourcePage: NextPage = props => {
                   />
 
                   {/* Search History links */}
-                  <Collapse in={!!searchHistory.length}>
-                    <CardContainer heading='Previous Searches'>
-                      <UnorderedList ml={0}>
-                        {searchHistory.map((search, index) => (
-                          <ListItem key={index}>
-                            <NextLink
-                              href={{
-                                pathname: '/search',
-                                query: { q: search },
-                              }}
-                              passHref
-                            >
-                              <Link
-                                as='span'
-                                wordBreak='break-word'
-                                fontSize='xs'
+                  {isMounted && (
+                    <Collapse in={!!searchHistory.length}>
+                      <CardContainer heading='Previous Searches'>
+                        <UnorderedList ml={0}>
+                          {searchHistory.map((search, index) => (
+                            <ListItem key={index}>
+                              <NextLink
+                                href={{
+                                  pathname: '/search',
+                                  query: { q: search },
+                                }}
+                                passHref
                               >
-                                {search}
-                              </Link>
-                            </NextLink>
-                          </ListItem>
-                        ))}
-                      </UnorderedList>
-                    </CardContainer>
-                  </Collapse>
+                                <Link
+                                  as='span'
+                                  wordBreak='break-word'
+                                  fontSize='xs'
+                                >
+                                  {search}
+                                </Link>
+                              </NextLink>
+                            </ListItem>
+                          ))}
+                        </UnorderedList>
+                      </CardContainer>
+                    </Collapse>
+                  )}
                 </Box>
               </Flex>
             </Flex>

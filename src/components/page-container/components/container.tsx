@@ -35,11 +35,6 @@ export const PageContainer: React.FC<PageContainerProps> = ({
   metaDescription,
   disableSearchBar,
 }) => {
-  const [isMounted, setIsMounted] = useState(false);
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
   const topNavigation = navConfig as NavigationProps['navigation'];
   const footerNavigation = footerConfig as FooterProps['navigation'];
 
