@@ -19,7 +19,7 @@ import { formatDOI } from 'src/utils/helpers';
 
 interface DateTagProps extends FlexProps {
   type?: string;
-  date: string | Date;
+  date: string;
 }
 
 export const DateTag: React.FC<DateTagProps> = ({ type, date, ...props }) => {
@@ -110,7 +110,6 @@ const ResourceDates: React.FC<ResourceDates> = ({ data }) => {
         {date_data.map((date, i) => {
           return <DateTag key={i} type={date.name} date={date.value} />;
         })}
-
         {data.doi && <DOITag doi={data.doi} />}
       </Flex>
     </TypeBanner>
