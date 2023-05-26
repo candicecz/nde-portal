@@ -18,6 +18,7 @@ const withMDX = require('@next/mdx')({
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
   reactStrictMode: true,
+  output: 'export',
   // experimental: {
   //   mdxRs: true,
   //   turbo: {
