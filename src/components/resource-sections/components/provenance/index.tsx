@@ -50,7 +50,7 @@ const Provenance: React.FC<Provenance> = ({
                 colorScheme='secondary'
                 href={url || undefined}
                 sourceHref={includedInDataCatalog?.url}
-                name={'Access Data'}
+                name='Access Data'
               />
             ) : (
               <ExternalSourceButton
@@ -61,7 +61,7 @@ const Provenance: React.FC<Provenance> = ({
                 }
                 colorScheme='secondary'
                 sourceHref={includedInDataCatalog?.url}
-                name={'Access Data'}
+                name='Access Data'
               />
             )}
           </StatField>

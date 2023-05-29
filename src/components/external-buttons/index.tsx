@@ -32,7 +32,7 @@ export const ExternalSourceButton: React.FC<ExternalButtonProps> = ({
 }) => {
   const SourceImage = (props: any) => (
     <Image
-      // h='50px'
+      minH='50px'
       maxH='50px'
       src={`${src}`}
       alt={alt}
