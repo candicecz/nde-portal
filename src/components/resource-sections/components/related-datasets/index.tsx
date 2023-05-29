@@ -87,12 +87,7 @@ const RelatedDatasets: React.FC<RelatedDatasetsProps> = ({
                           }}
                           passHref
                         >
-                          <Link
-                            as='span'
-                            isExternal
-                            wordBreak='break-word'
-                            fontSize='xs'
-                          >
+                          <Link as='span' wordBreak='break-word' fontSize='xs'>
                             {data.name || data.identifier}
                           </Link>
                         </NextLink>
@@ -111,7 +106,6 @@ const RelatedDatasets: React.FC<RelatedDatasetsProps> = ({
                             >
                               <Link
                                 as='span'
-                                isExternal
                                 wordBreak='break-word'
                                 fontSize='xs'
                               >

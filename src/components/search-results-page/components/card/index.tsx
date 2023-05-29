@@ -226,7 +226,7 @@ const SearchResultCard: React.FC<SearchResultCardProps> = ({
           </Flex>
 
           <>
-            <CardBody>
+            <CardBody p={0}>
               {date && (
                 <Flex
                   px={paddingCard}
