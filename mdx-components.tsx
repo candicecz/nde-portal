@@ -48,7 +48,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     ),
 
     h2: (props: any) => (
-      <Heading as='h2' size='h2' mt={16} fontSize='3xl' {...props} />
+      <Heading as='h2' size='h2' mt={8} fontSize='3xl' {...props} />
     ),
     h3: (props: any) => (
       <Heading as='h3' size='h3' mt={8} fontSize='2xl' {...props} />
@@ -63,7 +63,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     ),
 
     br: () => <br />,
-    p: (props: any) => <Text mt={5} fontSize='md' {...props} />,
+    p: (props: any) => <Text mt={2} fontSize='md' {...props} />,
     ul: (props: any) => (
       <UnorderedList my={4} ml={12}>
         {props.children}
