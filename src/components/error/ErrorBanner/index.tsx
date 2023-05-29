@@ -29,7 +29,7 @@ export const StatusIcon = ({
   props,
 }: {
   status: ErrorType;
-  props: Omit<IconProps, 'textUnderlineOffset'>;
+  props: IconProps;
 }) => {
   if (status === 'error') {
     return <Icon as={FaTimesCircle} color={`status.${status}`} {...props} />;

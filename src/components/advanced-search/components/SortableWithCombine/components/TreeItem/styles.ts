@@ -22,7 +22,7 @@ export const getStyles = ({
         borderRadius: 'base',
       },
     },
-  } as Omit<ListItemProps, 'textUnderlineOffset'>;
+  } as ListItemProps;
 
   if (clone) {
     styles = {

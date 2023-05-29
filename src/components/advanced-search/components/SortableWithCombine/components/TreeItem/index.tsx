@@ -74,7 +74,7 @@ export const TreeItem = React.memo(
         disableInteraction,
         ghost,
         indicator,
-      }) as Omit<ListItemProps, 'textUnderlineOffset'>;
+      }) as ListItemProps;
     }, [clone, depth, disableInteraction, ghost, indicator]);
 
     const [isEditMode, setIsEditMode] = useState(false);

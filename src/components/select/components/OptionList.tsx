@@ -1,10 +1,7 @@
 import { ListProps } from '@chakra-ui/react';
 import { UnorderedList } from '@candicecz/test-design-system';
 
-export const OptionsList: React.FC<Omit<ListProps, 'textUnderlineOffset'>> = ({
-  children,
-  ...props
-}) => {
+export const OptionsList: React.FC<ListProps> = ({ children, ...props }) => {
   return (
     <UnorderedList
       position='absolute'

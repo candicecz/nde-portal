@@ -6,7 +6,7 @@ import {
   useDisclosure,
 } from '@candicecz/test-design-system';
 
-interface OptionProps extends Omit<ListItemProps, 'textUnderlineOffset'> {
+interface OptionProps extends ListItemProps {
   name: string;
   description?: string;
   onClick: React.MouseEventHandler<HTMLLIElement>;

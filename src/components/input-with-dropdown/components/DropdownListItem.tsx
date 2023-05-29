@@ -8,8 +8,7 @@ import { FormattedResource } from 'src/utils/api/types';
 import { ListItemProps as ChakraListItemProps } from '@chakra-ui/react';
 import { useDropdownContext } from '..';
 
-interface DropdownListItemProps
-  extends Omit<ChakraListItemProps, 'textUnderlineOffset'> {
+interface DropdownListItemProps extends ChakraListItemProps {
   searchTerm: string;
   name?: keyof FormattedResource;
   value: FormattedResource['name'];

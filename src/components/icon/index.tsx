@@ -19,8 +19,7 @@ import Tooltip from 'src/components/tooltip';
 import { ResourceMetadata } from 'src/utils/schema-definitions/types';
 
 // Metadata icon svg.
-export interface IconProps
-  extends Omit<ChakraIconProps, 'textUnderlineOffset'> {
+export interface IconProps extends ChakraIconProps {
   id: string; // id for aria-labelledby for icon for accessibility
   glyph?: string;
   label?: string; // label for icon for accessibility

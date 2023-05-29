@@ -25,7 +25,7 @@ export interface DropdownButtonProps extends ButtonGroupProps {
   options: {
     name: string;
     value: UnionTypes | '';
-    props: Omit<ListItemProps, 'textUnderlineOffset'>;
+    props: ListItemProps;
   }[];
   iconButtonProps?: IconButtonProps;
 }

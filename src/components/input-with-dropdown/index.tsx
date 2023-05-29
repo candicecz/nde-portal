@@ -19,9 +19,7 @@ export interface ContextProps {
   setInputValue: React.Dispatch<React.SetStateAction<string>>;
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
   getInputProps: (props: any) => any;
-  getListItemProps: (
-    props: DropdownListItemProps,
-  ) => Omit<ListItemProps, 'textUnderlineOffset'>;
+  getListItemProps: (props: DropdownListItemProps) => ListItemProps;
 }
 
 export const defaultContext: ContextProps = {
