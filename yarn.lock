@@ -423,10 +423,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@candicecz/test-design-system@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@candicecz/test-design-system/-/test-design-system-1.0.8.tgz#d177d2cf60eda742fbf848de28477b4e483d4113"
-  integrity sha512-+6cgmUrMyRJraCim3dix5SXd/X7hGV+kD25BikSZjgP5lZE7PQMr+sndFNGy0S8+dxJNgeAgFJ2lnG4S37KHPw==
+"@candicecz/test-design-system@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@candicecz/test-design-system/-/test-design-system-1.0.9.tgz#435a03d70c256d3c2a88fd48fec0dfcfc2af41e8"
+  integrity sha512-0nHbJwoNaClCvZKIoC+rDQ52cwh/8T0mD0MEW1/w6qTXJr1JgB1xnhUDHgITeHdxYJv9VhPfXoDkdp7hqxMNpw==
   dependencies:
     "@babel/types" "^7.21.5"
     "@chakra-ui/react" "^2.6.1"
@@ -8824,6 +8824,11 @@ next-mdx-remote@^4.4.1:
     vfile "^5.3.0"
     vfile-matter "^3.0.1"
 
+next-router-mock@^0.9.3:
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/next-router-mock/-/next-router-mock-0.9.3.tgz#8287e96d76d4c7b3720bc9078b148c2b352f1567"
+  integrity sha512-jl8eFe71LpMVGeBMpoxILkGfEgGY7IfLy8XPyv05/o61p5oQRNpoMmk46VMxRIpt0fI8XcvznBZKpDK6vbYQcQ==
+
 next@^13.4.1:
   version "13.4.2"
   resolved "https://registry.yarnpkg.com/next/-/next-13.4.2.tgz#972f73a794f2c61729facedc79c49b22bdc89f0c"
@@ -9739,7 +9744,7 @@ react-merge-refs@^1.1.0:
   resolved "https://registry.yarnpkg.com/react-merge-refs/-/react-merge-refs-1.1.0.tgz#73d88b892c6c68cbb7a66e0800faa374f4c38b06"
   integrity sha512-alTKsjEL0dKH/ru1Iyn7vliS2QRcBp9zZPGoWxUOvRGWPUYgjo+V01is7p04It6KhgrzhJGnIj9GgX8W4bZoCQ==
 
-react-query@^3.34.7:
+react-query@^3.39.3:
   version "3.39.3"
   resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.39.3.tgz#4cea7127c6c26bdea2de5fb63e51044330b03f35"
   integrity sha512-nLfLz7GiohKTJDuT4us4X3h/8unOh+00MLb2yJoGTPjxKs2bc1iDhkNx2bd5MKklXnOD3NrVZ+J2UXujA5In4g==
