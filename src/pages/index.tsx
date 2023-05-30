@@ -501,7 +501,11 @@ const Home: NextPage = () => {
                 ) => {
                   return (
                     <Box key={route.title} w={['100%', 'unset']}>
-                      <NextLink href={route.path} passHref>
+                      <NextLink
+                        href={route.path}
+                        passHref
+                        target={route.isExternal ? '_blank' : '_self'}
+                      >
                         <Button
                           w='100%'
                           minWidth='200px'
