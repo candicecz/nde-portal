@@ -483,6 +483,7 @@ const Home: NextPage = () => {
               </TableWrapper>
             </Flex>
             <ButtonGroup
+              spacing={[0, 2]}
               flexWrap={['wrap', 'nowrap']}
               w='100%'
               display='flex'
@@ -499,19 +500,21 @@ const Home: NextPage = () => {
                   index,
                 ) => {
                   return (
-                    <NextLink key={route.title} href={route.path} passHref>
-                      <Button
-                        w='100%'
-                        variant={index % 2 ? 'solid' : 'outline'}
-                        size='sm'
-                        m={[0, 2, 0]}
-                        my={[1, 2, 0]}
-                        py={[6]}
-                        maxWidth='200px'
-                      >
-                        {route.title}
-                      </Button>
-                    </NextLink>
+                    <Box key={route.title} w={['100%', 'unset']}>
+                      <NextLink href={route.path} passHref>
+                        <Button
+                          w='100%'
+                          minWidth='200px'
+                          fontSize='sm'
+                          variant={index % 2 ? 'solid' : 'outline'}
+                          m={[0, 0, 0]}
+                          my={[1, 2, 0]}
+                          maxWidth={['unset', '200px']}
+                        >
+                          {route.title}
+                        </Button>
+                      </NextLink>
+                    </Box>
                   );
                 },
               )}
