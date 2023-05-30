@@ -73,9 +73,9 @@ const sendSlackMessage = async blocks => {
 const baseURL = 'http://localhost:3000';
 const siteLinks = [
   '/',
-  // '/search/',
+  '/search/',
   '/changelog/',
-  // '/sources/',
+  '/sources/',
   '/advanced-search/',
   '/about/',
   '/faq/',

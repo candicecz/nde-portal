@@ -24,7 +24,7 @@ Histogram consists of :
 - [updatedData] (data updated to reflect filtered resources - represented by coloured bars)
 */
 
-export const Histogram: React.FC<HistogramProps> = ({
+const Histogram: React.FC<HistogramProps> = ({
   children,
   updatedData,
   handleClick,
@@ -376,3 +376,5 @@ export const Histogram: React.FC<HistogramProps> = ({
     </div>
   );
 };
+
+export default Histogram;
